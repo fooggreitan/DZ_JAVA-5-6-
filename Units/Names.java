@@ -1,4 +1,4 @@
 public enum Names {
-    Аламар, Ягар, Зубин, Гундула, Орис, Сауру, Малекит, Джеддит,
-    Вей, Десса, Терек, Геон, Димер, Сефинрот, Монтар, Мана, Шаиа
+    Alamar, Yagar, Zubin, Gundula, Oris, Sauru, Malekit, Jeddit,
+    Vei, Dessa, Terek, Geon, Dimer, Sefinrot, Montar, Mana, Shaia
 }

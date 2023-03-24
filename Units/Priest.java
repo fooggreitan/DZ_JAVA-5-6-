@@ -1,31 +1,11 @@
 public class Priest extends BaseHero {
 
-    private int elixir;
-    private int maxElixir;
-
-    // public Priest() {
-    //     super(String.format("Hero_Priest #%d", ++Magician.number),
-    //             Magician.r.nextInt(100, 200));
-    //     this.maxElixir = Magician.r.nextInt(50, 150);
-    //     this.elixir = maxElixir;
-    // }
-
-    public Priest(String name, float hp, int speed, int damage, int elixir, int maxElixir, int x, int y) {
-        super(name, hp, speed, damage, x, y);
-        this.elixir = elixir;
-        this.maxElixir = maxElixir;
+    public Priest(String name, int x, int y) {
+        super(name, 34, 45, 45, 56, 67, x, y);
     }
-    
+
     @Override
-    public String getInfo() {
+    public String getName() {
         return "Priest";
     }
-
-    // @Override
-    // public void step() {
-    //     System.out.println("Шаг.");
-    //     // TODO Auto-generated method stub
-    //     // throw new UnsupportedOperationException("Unimplemented method 'step'");
-    // }
-
 }

@@ -1,30 +1,11 @@
 public class Robber extends InfantClass {
 
-    private int poisons;
-    private int maxPoisons;
-
-    // public SniperHero(int ammo, int maxAmmo) {
-    //     super(String.format("Hero_Sniper #%d", ++SniperHero.number),
-    //             SniperHero.r.nextInt(100, 200));
-    //     this.maxAmmo = SniperHero.r.nextInt(50, 150);
-    //     this.ammo = maxAmmo;
-    // }
-
-    public Robber(String name, float hp, int speed, int damage, int stamina, int poisons, int maxPoisons,  int x, int y) {
-        super(name, hp, speed, damage, stamina, x, y);
-        this.poisons = poisons;
-        this.maxPoisons = maxPoisons;
+    public Robber(String name, int x, int y) {
+        super(name, 45, 34, 32, 43, 45, 34, x, y);
     }
-    
+
     @Override
-    public String getInfo() {
+    public String getName() {
         return "Robber";
     }
-
-    // @Override
-    // public void step() {
-    //     System.out.println("Выстрел");
-    //     // TODO Auto-generated method stub
-    //     // throw new UnsupportedOperationException("Unimplemented method 'step'");
-    // }
 }
